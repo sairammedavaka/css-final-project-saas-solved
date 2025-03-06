@@ -1,0 +1,44 @@
+/* HEADER SECTION CSS STARTS HERE */
+
+.header-section {
+  width: 100%;
+  height: 86px;
+}
+
+header > div > img {
+  width: 154.9px;
+  height: 46.1px;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.header-hamburger {
+  width: 18px;
+  height: 20px;
+}
+
+.header-hamburger > i {
+  color: #677788;
+}
+
+.ul-navlist {
+  display: flex;
+  gap: 20px;
+  list-style-type: none;
+}
+
+.ul-navlist a {
+  font-weight: 500;
+}
+
+.header-nav button {
+  width: 102px;
+  height: 45px;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 14.52px;
+}

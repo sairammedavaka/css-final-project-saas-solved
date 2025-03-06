@@ -1,0 +1,34 @@
+/* ANIMATION CSS STARTS HERE */
+
+@keyframes asana-atlassian-google-ads {
+  from {
+    transform: translateX(150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes calender-weave-paypal {
+  from {
+    transform: translateY(150px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}
+
+@keyframes google {
+  from {
+    transform: translateY(-100px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 100%;
+  }
+}

@@ -1,0 +1,100 @@
+/* WHY FRONT SECTION CSS STARTS HERE */
+
+.why-front-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  height: 354px;
+  padding: 0 30px;
+}
+
+.why-front-title {
+  width: 560px;
+  height: 89px;
+  text-align: center;
+}
+
+.why-front-title > h1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31.47px;
+  margin-bottom: 10px;
+}
+
+.why-front-title p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.bullet-list {
+  list-style-type: none;
+  width: 100%;
+  height: 145px;
+  display: flex;
+  justify-content: center;
+}
+
+.bullet > ul {
+  list-style-type: none;
+  width: 224px;
+  height: 145px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.top {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.left-wing {
+  width: 83px;
+  height: 1px;
+  border: 1px solid #ecf2ff;
+}
+
+.bullet-circle {
+  width: 50px;
+  height: 50px;
+  background-color: #ecf2ff;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bullet-circle > span {
+  width: 6px;
+  height: 6px;
+  border: 1px solid #0066ff;
+  border-radius: 3px;
+  background-color: #0066ff;
+}
+
+.right-wing {
+  width: 83px;
+  height: 1px;
+  border: 1px solid #ecf2ff;
+}
+
+.title > span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.bullet-list li:nth-child(1) > ul > li .left-wing {
+  opacity: 0;
+}
+
+.bullet-list li:nth-child(4) > ul > li .right-wing {
+  opacity: 0;
+}

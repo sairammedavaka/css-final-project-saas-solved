@@ -1,0 +1,164 @@
+/* PRICING SECTION CSS STARTS HERE */
+
+.pricing-section {
+  width: 100%;
+  height: 692px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+  padding: 0 30px;
+}
+
+.pricing-title {
+  text-align: center;
+}
+
+.pricing-title > h1 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31.47px;
+  margin-bottom: 10px;
+}
+
+.pricing-title p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19.36px;
+}
+
+.pricing-table {
+  width: 100%;
+  height: 452px;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.plan {
+  padding: 40px;
+  width: 370px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  box-shadow: 0px 3px 13px 0px #00000040;
+  transition: all 0.3s ease-in-out 0.2s;
+}
+
+.plan-header {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.plan-price {
+  display: flex;
+  align-items: end;
+  gap: 7px;
+}
+
+.plan-price > h1 {
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 60.51px;
+}
+
+.plan-period > p {
+  font-weight: 510;
+  font-size: 20px;
+  line-height: 23.87px;
+}
+
+.plan-divider {
+  height: 1px;
+  border: 1px solid #8d8d8d;
+}
+
+.plan-header p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.plan-footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  gap: 10px;
+}
+
+.plan-footer > button {
+  width: 137px;
+  height: 48px;
+}
+
+.plan-footer > button > i {
+  margin-right: 8px;
+}
+
+.plan-footer p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 14.52px;
+}
+
+.plan-features {
+  width: 564px;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.row-one {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.plan-feature-item {
+  width: 277px;
+  height: 219px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.plan-feature-item > img {
+  height: 50px;
+  width: 50px;
+}
+
+.plan-feature-item h1 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21.78px;
+}
+
+.plan-feature-item p {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.plan-feature-item div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.plan-feature-item div span {
+  width: 60px;
+  height: 23px;
+  border-radius: 15px;
+  background-color: #01c9a7;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

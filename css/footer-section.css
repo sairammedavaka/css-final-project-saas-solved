@@ -1,0 +1,120 @@
+/* FOOTER SECTION CSS STARTS HERE */
+
+footer {
+  width: 100%;
+  height: 246px;
+  padding: 40px 30px 40px 30px;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.footer-leftpart {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-leftpart > img {
+  width: 100px;
+  height: 29.76px;
+}
+
+.footer-leftpart ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-leftpart ul li {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.footer-leftpart ul li > i {
+  width: 11px;
+  height: 12px;
+  font-weight: 900;
+  font-size: 12px;
+  color: #677788;
+}
+
+.footer-leftpart ul li p {
+  font-weight: 510;
+  font-size: 14px;
+  line-height: 16.71px;
+}
+
+.footer-leftpart ul li:nth-child(2) p:nth-child(2) {
+  color: #2576ff;
+}
+
+.footer-rightpart {
+  width: 100%;
+}
+
+.footer-rightpart > ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  gap: 49px;
+}
+
+.footer-rightpart > ul li {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-rightpart > ul li ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-rightpart > ul li > h1 {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21.48px;
+}
+
+.footer-rightpart > ul li:nth-child(4) ul li {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 9px;
+}
+
+.footer-rightpart > ul li:nth-child(4) ul li > i {
+  font-weight: 900;
+  font-size: 12px;
+  line-height: 12px;
+  color: #677788;
+}
+
+.footer-rightpart > ul > li ul li:nth-child(2) {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.footer-rightpart > ul > li ul li:nth-child(2) div {
+  width: 55px;
+  height: 14px;
+  border-radius: 3px;
+  background-color: #2576ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-rightpart > ul > li ul li:nth-child(2) div > span {
+  font-weight: 510;
+  font-size: 8px;
+  line-height: 9.55px;
+  color: #ffffff;
+}
