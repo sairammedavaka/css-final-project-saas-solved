@@ -1,24 +1,24 @@
-name: Deploy to IONOS via FTP
+name: Deploy to IONOS via SFTP
 
 on:
   push:
     branches:
-      - master  # deployment branch
+      - master  # branch to trigger deploy from
 
 jobs:
-  ftp-deploy:
-    name: Upload to IONOS Webspace
+  sftp-deploy:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: FTP Deploy
-        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+      - name: Set up SFTP deployment
+        uses: appleboy/sftp-action@v0.1.0
         with:
-          server: ${{ secrets.FTP_HOST }}
+          host: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          server-dir: ./
-          local-dir: ./ 
+          port: 22  # Default SFTP port
+          source: ./  # Local directory to deploy, adjust as needed
+          target: ./  # Remote directory path to deploy to
