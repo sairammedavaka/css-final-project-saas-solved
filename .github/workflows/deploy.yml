@@ -13,12 +13,12 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v3
 
-      - name: Set up SFTP deployment
-        uses: appleboy/sftp-action@v0.1.15
+      - name: Deploy via SFTP
+        uses: wlixcc/SFTP-Deploy-Action@v1.0.0
         with:
           host: ${{ secrets.FTP_HOST }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
           port: 22  # Default SFTP port
-          source: ./  # Local directory to deploy, adjust as needed
-          target: ./  # Remote directory path to deploy to
+          source: "./"  # Local directory to deploy, adjust as needed
+          target: "./"  # Remote directory path to deploy to
