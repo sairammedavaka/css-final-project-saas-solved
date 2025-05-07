@@ -16,5 +16,5 @@ jobs:
             password: ${{ secrets.FTP_PASSWORD }}
             server: ${{ secrets.FTP_SERVER }}
             port: ${{ secrets.FTP_PORT }}
-            remote_path: './static-final-project'
+            remote_path: '/static-final-project'
             sftp_only: true
